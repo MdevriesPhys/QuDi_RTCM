@@ -1,4 +1,4 @@
-QuDi_RTCM
+			QuDi_RTCM
 ____________________________________________________________________________
 
 Initial file for RMIT CNBP's Room Temperature Confocal Microscope (RTCM).
@@ -7,6 +7,7 @@ This will allow for full control and integration of the different lasers, spectr
 This repo will be for modification both at the RTCM control computer, and on private computers - pull from repo to update at start of RTCM sessions.
 
 ____PLANS____
+
 --V0--
 	+ *.0* LaserQuantum GEM 532 as only laser
 	+ *.1* Photon counting - one APD
