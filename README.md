@@ -1,3 +1,6 @@
+QuDi_RTCM
+____________________________________________________________________________
+
 Initial file for RMIT CNBP's Room Temperature Confocal Microscope (RTCM).
 This will allow for full control and integration of the different lasers, spectrometers and microwaves etc.
 
