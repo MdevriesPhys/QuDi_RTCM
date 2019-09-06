@@ -54,7 +54,7 @@ class LaserQuantumLaser(Base, SimpleLaserInterface):
     _modtype = 'hardware'
 
     serial_interface = ConfigOption('interface', 'ASRL1::INSTR', missing='warn')
-    maxpower = ConfigOption('maxpower', 0.250, missing='warn')
+    maxpower = ConfigOption('maxpower', 0.8, missing='warn')
     psu_type = ConfigOption('psu', 'SMD6000', missing='warn')
 
     def on_activate(self):
