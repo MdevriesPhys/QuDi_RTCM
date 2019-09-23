@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
@@ -162,7 +162,7 @@
      <x>0</x>
      <y>0</y>
      <width>730</width>
-     <height>18</height>
+     <height>30</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuMenu">
@@ -176,6 +176,7 @@
    </widget>
    <addaction name="menuMenu"/>
   </widget>
+  <widget class="QStatusBar" name="statusbar"/>
   <widget class="QDockWidget" name="adjustDockWidget">
    <property name="windowTitle">
     <string>Adjust</string>
