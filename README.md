@@ -8,13 +8,13 @@ This repo will be for modification both at the RTCM control computer, and on pri
 
 ____PLANS____
 
---V0--
+--V0-- DONE
 
-	+ *.0* LaserQuantum GEM 532 as only laser
+	+ *.0* LaserQuantum GEM 532 as only laser DONE
 	
-	+ *.1* Photon counting - one APD
+	+ *.1* Photon counting - one APD DONE
 	
-	+ *.2* Basic confocal controls - scanning, control of positioner
+	+ *.2* Basic confocal controls - scanning, control of positioner DONE
 
 --V1--
 
