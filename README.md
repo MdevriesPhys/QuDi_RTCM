@@ -8,15 +8,21 @@ This repo will be for modification both at the RTCM control computer, and on pri
 
 ____PLANS____
 
---V0-- DONE
-
+--V0--DONE
 	+ *.0* LaserQuantum GEM 532 as only laser DONE
-	
 	+ *.1* Photon counting - one APD DONE
-	
 	+ *.2* Basic confocal controls - scanning, control of positioner DONE
 
 --V1--
+
+g2 capabilities
+
+	+ *.0* Two APDs
+
+	+ *.1* Coincidence measurements
+
+
+--V2--
 
 	+ *.0* SMIQ
 	
@@ -26,7 +32,7 @@ ____PLANS____
 	
 	+ *.3* T1
 
---V2--
+--V3--
 
 	+ *.0* Spectrometer integration
 	
@@ -34,7 +40,7 @@ ____PLANS____
 		
 		Display through QuDi
 
---V3--
+--V4--
 
 LaserHW as individual selection through config file
 
@@ -43,14 +49,6 @@ LaserHW as individual selection through config file
 	+ *.1* Diode (405nm) CW
 	
 	+ *.2* Fianium (410-2400nm) Pulse
-
---V4--
-
-g2 capabilities
-
-	+ *.0* Two APDs
-	
-	+ *.1* Coincidence measurements
 
 --V5--
 
