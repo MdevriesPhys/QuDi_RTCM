@@ -790,8 +790,7 @@ def make_twoDgaussian_fit(self, xy_axes, data, estimator, units=None, add_params
         result = gaussian_2d_model.fit(data, x=xy_axes, params=params, **kwargs)
     except:
         result = gaussian_2d_model.fit(data, x=xy_axes, params=params, **kwargs)
-        self.log.warning('The 2D gaussian fit did not work: {0}'.format(
-                       result.message))
+        self.log.warning('The 2D gaussian fit did not work: {0}'.format(result.message))
 
     return result
 

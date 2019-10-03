@@ -394,7 +394,8 @@ class OptimizerLogic(GenericLogic):
             xy_axes=axes,
             data=xy_fit_data,
             estimator=self._fit_logic.estimate_twoDgaussian_MLE
-        )
+            )
+
         # print(result_2D_gaus.fit_report())
 
         if result_2D_gaus.success is False:
