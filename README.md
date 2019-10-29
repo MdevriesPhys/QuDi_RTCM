@@ -16,10 +16,6 @@ ____PLANS____
 
 	+ *.2* Basic confocal controls - scanning, control of positioner DONE
 
-    + *.3* Fix issues with confocal (don't need to close counter)
-
-    + *.4* Create popup saving box
-
 --V1--
 
 g2 capabilities
@@ -61,3 +57,7 @@ LaserHW as individual selection through config file
 Quality of life updates
 
 	+ *.0* Selection of laser through QuDi GUI, rather than config files
+
+    + *.1* Fix issues with confocal (don't need to close counter)
+
+    + *.2* Create popup saving box
