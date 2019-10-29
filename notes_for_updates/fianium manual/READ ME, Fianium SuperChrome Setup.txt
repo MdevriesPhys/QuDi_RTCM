@@ -1,0 +1,52 @@
+READ ME
+
+Fianium SuperChrome Setup V2.0.1
+
+READ ME
+
+Fianium SuperChrome Setup V2.0.1
+
+The SuperChrome s/w will lead you through the installation process.
+
+Start the executable file (Double Click or Right Click, Open) and follow the instructions as directed by the installation wizard.
+
+It is recommended that the default file locations are used, as prompted by the installation wizard.
+
+ 
+First installation.
+In the event of a first installation the Calibration.xml and Configuration.xml files will be contained within the Calibration folder supplied with the installation executable (these xml files are specific to the individual SuperChrome).
+Before running the installation confirm that the USB key is labelled (and/or named) with the SuperChrome unit for which the installation is required.
+
+
+Update.
+In the event of a s/w update there should be no XML files in the Calibration folder supplied with the installation executable.
+(any files in this folder will overwrite the previously installed files) 
+
+The software installation executable is also backwards compatible with the previous s/w and file format (Wavelength Selector s/w V7.0.4 and earlier).  
+
+
+PLEASE NOTE.
+The software will OVERWRITE any Controller.xml and Calibration.xml files in the target directory if there are the SAME NAMED xml files in the Calibration folder supplied with the installation executable.
+The software will LEAVE any Controller.xml and Calibration.xml files in the target directory if there are NO same named files in the Calibration folder supplied with the installation executable. 
+The software will not affect any xml files in any folder other than the target directory.
+
+PLEASE NOTE.
+Backwards compatibility with the previous s/w and file format :  
+As per Update instructions above ensure that there are NO xml files in the Calibration folder supplied with the installation executable before running the SuperChrome s/w installation.
+On first installation the SuperChrome installer will automatically look for installations of previous s/w and file format (Wavelength Selector s/w V7.0.4 and earlier).  
+In the event that an installed copy of the Wavelength Selector s/w V7.0.4 (and earlier) is found the SuperChrome installation will automatically use these previous version xml values and import these values into the new xml file format and save the resulting xml files in the target directory. 
+It is recommended that the Wavelength Selector s/w is NOT uninstalled so as to leave a reference (the desktop shortcut and quick launch icon can be removed if desired).  There is no known conflict and the SuperChrome s/w is not affected by these files.
+The previous xml file format (Wavelength Selector s/w V7.0.4 and earlier) is NOT compatible with the SuperChrome s/w.
+Should the SuperChrome software require re-installation it is recommended that the SuperChrome s/w is unistalled and any remaining files in the in the target directory be deleted.  
+IT IS STRONGLY RECOMMENDED that the new file format Controller.xml and Calibration.xml files are copied to the Calibration folder supplied with the Installation executable. 
+
+S/w installation running order :
+Installation wizard
+Previous version search (import xml file values and save in target directory under new file format)
+Software installation
+Install xml files as supplied in the Calibration folder with the installation executable (if there are no xml files in the calibration folder any previously installed xml files will be left unmodified).
+
+
+In the event of a problem with your SuperChrome unit please contact your local representative.
+
+All rights reserved.  Copyright 2013.
